@@ -1,37 +1,37 @@
-,pdf1,pdf2,Matching_Value,very poor,poor,average,high,excellent
-0,covid_business_today,covid_business_standard,12.547169811320755,0,1,0,0,0
-1,covid_education_diary,covid_business_standard,11.304347826086957,0,1,0,0,0
-2,covid_education_diary,covid_business_today,11.904761904761905,0,1,0,0,0
-3,covid_india_today,covid_business_standard,12.727272727272727,0,1,0,0,0
-4,covid_india_today,covid_business_today,15.0,0,1,0,0,0
-5,covid_india_today,covid_education_diary,11.73913043478261,0,1,0,0,0
-6,covid_livemint,covid_business_standard,11.290322580645162,0,1,0,0,0
-7,covid_livemint,covid_business_today,11.290322580645162,0,1,0,0,0
-8,covid_livemint,covid_education_diary,10.588235294117647,0,1,0,0,0
-9,covid_livemint,covid_india_today,11.851851851851851,0,1,0,0,0
-10,covid_livemint1,covid_business_standard,12.380952380952381,0,1,0,0,0
-11,covid_livemint1,covid_business_today,12.272727272727273,0,1,0,0,0
-12,covid_livemint1,covid_education_diary,11.666666666666666,0,1,0,0,0
-13,covid_livemint1,covid_india_today,12.941176470588236,0,1,0,0,0
-14,covid_livemint1,covid_livemint,10.0,0,1,0,0,0
-15,covid_thehindu,covid_business_standard,13.0,0,1,0,0,0
-16,covid_thehindu,covid_business_today,13.333333333333334,0,1,0,0,0
-17,covid_thehindu,covid_education_diary,12.222222222222221,0,1,0,0,0
-18,covid_thehindu,covid_india_today,12.941176470588236,0,1,0,0,0
-19,covid_thehindu,covid_livemint,11.578947368421053,0,1,0,0,0
-20,covid_thehindu,covid_livemint1,12.0,0,1,0,0,0
-21,covid_thehindu2,covid_business_standard,15.416666666666666,0,1,0,0,0
-22,covid_thehindu2,covid_business_today,13.870967741935484,0,1,0,0,0
-23,covid_thehindu2,covid_education_diary,11.904761904761905,0,1,0,0,0
-24,covid_thehindu2,covid_india_today,16.0,0,1,0,0,0
-25,covid_thehindu2,covid_livemint,13.125,0,1,0,0,0
-26,covid_thehindu2,covid_livemint1,12.571428571428571,0,1,0,0,0
-27,covid_thehindu2,covid_thehindu,18.235294117647058,0,1,0,0,0
-28,covid_the_times_of_india,covid_business_standard,12.571428571428571,0,1,0,0,0
-29,covid_the_times_of_india,covid_business_today,12.962962962962964,0,1,0,0,0
-30,covid_the_times_of_india,covid_education_diary,11.304347826086957,0,1,0,0,0
-31,covid_the_times_of_india,covid_india_today,12.222222222222221,0,1,0,0,0
-32,covid_the_times_of_india,covid_livemint,10.909090909090908,0,1,0,0,0
-33,covid_the_times_of_india,covid_livemint1,11.348314606741573,0,1,0,0,0
-34,covid_the_times_of_india,covid_thehindu,12.5,0,1,0,0,0
-35,covid_the_times_of_india,covid_thehindu2,12.954545454545455,0,1,0,0,0
+pdf1,pdf2,Matching_Value,Matching_Category,very poor,poor,average,high,excellent,5
+data_privacy_national_law_review,data_privacy_help_net_security,11.891891891891891,very poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_cso_online,14.054054054054054,very poor,1,0,0,0,0,0
+data_privacy_information_security_buzz,data_privacy_help_net_security,14.117647058823529,very poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_computer_weekly,14.242424242424242,very poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_euractiv.com,14.242424242424242,very poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_dark_reading,14.444444444444445,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_help_net_security,14.516129032258064,very poor,1,0,0,0,0,0
+data_privacy_lexology,data_privacy_help_net_security,15.714285714285714,very poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_lexology,15.9375,very poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_dark_reading,17.5,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_national_law_review,17.741935483870968,very poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_information_security_buzz,20.0,very poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_computer_weekly,20.0,very poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_cso_online,20.238095238095237,very poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_euractiv.com,20.58823529411765,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_information_security_buzz,24.242424242424242,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_cso_online,24.634146341463413,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_dark_reading,26.153846153846153,very poor,1,0,0,0,0,0
+data_privacy_information_security_buzz,data_privacy_cso_online,26.31578947368421,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_euractiv.com,26.8,very poor,1,0,0,0,0,0
+data_privacy_dark_reading,data_privacy_cso_online,26.85185185185185,very poor,1,0,0,0,0,0
+data_privacy_dark_reading,data_privacy_computer_weekly,27.209302325581394,very poor,1,0,0,0,0,0
+data_privacy_information_security_buzz,data_privacy_dark_reading,27.36842105263158,very poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_computer_weekly,28.214285714285715,very poor,1,0,0,0,0,0
+data_privacy_lexology,data_privacy_dark_reading,28.96551724137931,very poor,1,0,0,0,0,0
+data_privacy_cso_online,data_privacy_computer_weekly,29.387755102040817,poor,0,1,0,0,0,0
+data_privacy_euractiv.com,data_privacy_cso_online,30.0,poor,0,1,0,0,0,0
+data_privacy_euractiv.com,data_privacy_dark_reading,30.625,poor,0,1,0,0,0,0
+data_privacy_lexology,data_privacy_computer_weekly,31.11111111111111,poor,0,1,0,0,0,0
+data_privacy_lexology,data_privacy_cso_online,31.724137931034484,poor,0,1,0,0,0,0
+data_privacy_lexology,data_privacy_information_security_buzz,31.818181818181817,poor,0,1,0,0,0,0
+data_privacy_techopedia,data_privacy_lexology,31.875,poor,0,1,0,0,0,0
+data_privacy_information_security_buzz,data_privacy_computer_weekly,32.8,poor,0,1,0,0,0,0
+data_privacy_euractiv.com,data_privacy_computer_weekly,32.857142857142854,poor,0,1,0,0,0,0
+data_privacy_information_security_buzz,data_privacy_euractiv.com,35.86206896551724,average,0,0,1,0,0,0
+data_privacy_lexology,data_privacy_euractiv.com,50.0,excellent,0,0,0,0,0,1

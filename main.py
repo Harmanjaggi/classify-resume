@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-dir_path = 'C:\interest\data_science\classify_resume\input3'
+dir_path = 'C:\interest\data_science\classify_resume\input4'
 # dir_path = 'C:\interest\data_science\pdf_to_word\pdfs'
 
 file_list = os.listdir(dir_path)

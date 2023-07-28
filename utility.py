@@ -11,12 +11,11 @@ def find_category(num):
             return(word_matching_labels[idx - 1])
     return(-1)
 
-matching_category_label = ['very poor', 'poor', 'average', 'high', 'excellent']
-matching_category_bin = [10, 20, 30, 40, 50, float('inf')]
+matching_category_label = ['very poor', 'poor', 'average', 'above average', 'good', 'excellent']
 
-def find_matching_category(num):
+def find_matching_category(num, matching_category_bin):
     for idx, b in enumerate(matching_category_bin):
-        if(b > num):
+        if(b >= num):
             return(matching_category_label[idx])
     return(-1)
 
