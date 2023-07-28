@@ -1,15 +1,5 @@
-,Words,pdf 0,pdf 1,pdf 2,pdf 3,pdf 4
-0,analysis,2,2,2,2,2
-1,architecture,8,4,4,4,4
-2,c,6,4,4,4,8
-3,computer,2,2,2,8,10
-4,data,2,2,2,2,2
-5,development,8,6,2,10,4
-6,dod,2,2,10,6,2
-7,java,2,2,12,6,4
-8,learning,2,2,2,12,6
-9,linux,2,2,2,2,2
-10,machine,2,2,2,12,6
-11,python,8,12,8,8,6
-12,system,2,2,2,8,10
-13,ware,8,6,2,10,4
+,Words,covid_business_standard,covid_business_today,covid_education_diary,covid_india_today,covid_livemint,covid_livemint1,covid_thehindu,covid_thehindu2,covid_the_times_of_india,covid_weather
+0,country,1,1,2,1,2,1,8,6,2,1
+1,covid,6,8,3,11,5,2,6,10,6,3
+2,india,2,3,3,4,2,3,24,22,2,6
+3,vaccine,9,7,5,10,2,9,8,26,7,7

@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from utility import find_category, word_matching_bins, word_matching_labels
 
 df = pd.read_csv('output/resume_without_0.csv')
+df.drop(columns=df.columns[1], axis=1, inplace=True)
 
 def word_matching(df, bins, label):
     wm = [0] * len(df.index)

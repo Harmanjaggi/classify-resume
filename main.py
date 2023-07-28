@@ -10,16 +10,19 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-dir_path = 'C:\interest\data_science\classify_resume\input1'
+dir_path = 'C:\interest\data_science\classify_resume\input3'
 # dir_path = 'C:\interest\data_science\pdf_to_word\pdfs'
 
 file_list = os.listdir(dir_path)
 pdf_files = [file for file in file_list if file.lower().endswith('.pdf')]
 
 pdf = []
+pdf_name = []
 
 for pdf_file in pdf_files:
     pdf_reader = PdfReader(dir_path + "\\" + pdf_file)
+    pdf_file = pdf_file.removesuffix('.pdf')
+    pdf_name.append(pdf_file)
     pdf.append(pdf_reader)
     
 len_of_pdf =  len(pdf)
@@ -59,7 +62,7 @@ def calculateBOW(wordset,l_doc):
 df = pd.DataFrame()
 for i in range(len_of_pdf): 
     bow = calculateBOW(wordset,pdfs[i])
-    df["pdf " + str(i)] = bow
+    df[pdf_name[i]] = bow
     
 df2 = df[(df != 0).all(axis=1)]
 
@@ -70,5 +73,7 @@ df3 = pd.read_csv('output/resume_without_0.csv')
 df3.rename(columns={df3.columns[0]: 'Words'}, inplace=True)
 
 print(df3)
+
+df.to_csv('output/resume.csv')
 
 df3.to_csv('output/resume_without_0.csv')
