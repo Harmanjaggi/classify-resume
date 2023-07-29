@@ -7,6 +7,14 @@ import re
 import nltk
 from nltk.corpus import stopwords
 
+# Calculating Bag-of-Words
+
+def calculateBOW(wordset,l_doc):
+  tf_diz = dict.fromkeys(wordset,0)
+  for word in l_doc:
+      tf_diz[word]=l_doc.count(word)
+  return tf_diz
+
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
@@ -51,13 +59,6 @@ for i in range(len_of_pdf):
     wordset = np.union1d(wordset,pdfs[i])
 
 # Calculating Bag-of-Words
-
-def calculateBOW(wordset,l_doc):
-  tf_diz = dict.fromkeys(wordset,0)
-  for word in l_doc:
-      tf_diz[word]=l_doc.count(word)
-  return tf_diz
-
     
 df = pd.DataFrame()
 for i in range(len_of_pdf): 
@@ -67,13 +68,14 @@ for i in range(len_of_pdf):
 df2 = df[(df != 0).all(axis=1)]
 
 df2.to_csv('output/resume_without_0.csv')
-
-df3 = pd.read_csv('output/resume_without_0.csv')
-
-df3.rename(columns={df3.columns[0]: 'Words'}, inplace=True)
-
-print(df3)
-
 df.to_csv('output/resume.csv')
 
-df3.to_csv('output/resume_without_0.csv')
+df2 = pd.read_csv('output/resume_without_0.csv')
+df = pd.read_csv('output/resume.csv')
+
+df2.rename(columns={df2.columns[0]: 'Words'}, inplace=True)
+df.rename(columns={df.columns[0]: 'Words'}, inplace=True)
+
+df.to_csv('output/resume.csv', index = False)
+
+df2.to_csv('output/resume_without_0.csv', index = False)

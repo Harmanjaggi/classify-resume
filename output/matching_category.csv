@@ -1,37 +1,46 @@
-pdf1,pdf2,Matching_Value,Matching_Category,very poor,poor,average,high,excellent,5
-data_privacy_national_law_review,data_privacy_help_net_security,11.891891891891891,very poor,1,0,0,0,0,0
-data_privacy_help_net_security,data_privacy_cso_online,14.054054054054054,very poor,1,0,0,0,0,0
-data_privacy_information_security_buzz,data_privacy_help_net_security,14.117647058823529,very poor,1,0,0,0,0,0
-data_privacy_help_net_security,data_privacy_computer_weekly,14.242424242424242,very poor,1,0,0,0,0,0
-data_privacy_help_net_security,data_privacy_euractiv.com,14.242424242424242,very poor,1,0,0,0,0,0
-data_privacy_help_net_security,data_privacy_dark_reading,14.444444444444445,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_help_net_security,14.516129032258064,very poor,1,0,0,0,0,0
-data_privacy_lexology,data_privacy_help_net_security,15.714285714285714,very poor,1,0,0,0,0,0
-data_privacy_national_law_review,data_privacy_lexology,15.9375,very poor,1,0,0,0,0,0
-data_privacy_national_law_review,data_privacy_dark_reading,17.5,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_national_law_review,17.741935483870968,very poor,1,0,0,0,0,0
-data_privacy_national_law_review,data_privacy_information_security_buzz,20.0,very poor,1,0,0,0,0,0
-data_privacy_national_law_review,data_privacy_computer_weekly,20.0,very poor,1,0,0,0,0,0
-data_privacy_national_law_review,data_privacy_cso_online,20.238095238095237,very poor,1,0,0,0,0,0
-data_privacy_national_law_review,data_privacy_euractiv.com,20.58823529411765,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_information_security_buzz,24.242424242424242,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_cso_online,24.634146341463413,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_dark_reading,26.153846153846153,very poor,1,0,0,0,0,0
-data_privacy_information_security_buzz,data_privacy_cso_online,26.31578947368421,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_euractiv.com,26.8,very poor,1,0,0,0,0,0
-data_privacy_dark_reading,data_privacy_cso_online,26.85185185185185,very poor,1,0,0,0,0,0
-data_privacy_dark_reading,data_privacy_computer_weekly,27.209302325581394,very poor,1,0,0,0,0,0
-data_privacy_information_security_buzz,data_privacy_dark_reading,27.36842105263158,very poor,1,0,0,0,0,0
-data_privacy_techopedia,data_privacy_computer_weekly,28.214285714285715,very poor,1,0,0,0,0,0
-data_privacy_lexology,data_privacy_dark_reading,28.96551724137931,very poor,1,0,0,0,0,0
-data_privacy_cso_online,data_privacy_computer_weekly,29.387755102040817,poor,0,1,0,0,0,0
-data_privacy_euractiv.com,data_privacy_cso_online,30.0,poor,0,1,0,0,0,0
-data_privacy_euractiv.com,data_privacy_dark_reading,30.625,poor,0,1,0,0,0,0
-data_privacy_lexology,data_privacy_computer_weekly,31.11111111111111,poor,0,1,0,0,0,0
-data_privacy_lexology,data_privacy_cso_online,31.724137931034484,poor,0,1,0,0,0,0
-data_privacy_lexology,data_privacy_information_security_buzz,31.818181818181817,poor,0,1,0,0,0,0
-data_privacy_techopedia,data_privacy_lexology,31.875,poor,0,1,0,0,0,0
-data_privacy_information_security_buzz,data_privacy_computer_weekly,32.8,poor,0,1,0,0,0,0
-data_privacy_euractiv.com,data_privacy_computer_weekly,32.857142857142854,poor,0,1,0,0,0,0
-data_privacy_information_security_buzz,data_privacy_euractiv.com,35.86206896551724,average,0,0,1,0,0,0
-data_privacy_lexology,data_privacy_euractiv.com,50.0,excellent,0,0,0,0,0,1
+pdf1,pdf2,Matching_Value,Matching_Category,poor,average,above average,good,very good,excellent
+data_privacy_techopedia,data_privacy_help_net_security,12.5,poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_help_net_security,12.5,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_national_law_review,12.5,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_techopedia,15.0,poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_euractiv.com,16.0,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_help_net_security,16.0,poor,1,0,0,0,0,0
+data_privacy_information_security_buzz,data_privacy_help_net_security,16.0,poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_computer_weekly,17.5,poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_cso_online,17.5,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_computer_weekly,20.0,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_information_security_buzz,20.0,poor,1,0,0,0,0,0
+data_privacy_help_net_security,data_privacy_dark_reading,20.0,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_euractiv.com,20.0,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_dark_reading,20.0,poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_lexology,20.0,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_cso_online,22.0,poor,1,0,0,0,0,0
+data_privacy_lexology,data_privacy_help_net_security,25.0,poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_euractiv.com,32.5,poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_euractiv.com,32.5,poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_cso_online,33.333333333333336,poor,1,0,0,0,0,0
+data_privacy_techopedia,data_privacy_national_law_review,33.333333333333336,poor,1,0,0,0,0,0
+data_privacy_tech_monitor,data_privacy_lexology,33.333333333333336,poor,1,0,0,0,0,0
+data_privacy_national_law_review,data_privacy_lexology,35.0,poor,1,0,0,0,0,0
+data_privacy_lexology,data_privacy_dark_reading,36.666666666666664,average,0,1,0,0,0,0
+data_privacy_national_law_review,data_privacy_computer_weekly,37.5,average,0,1,0,0,0,0
+data_privacy_techopedia,data_privacy_information_security_buzz,37.5,average,0,1,0,0,0,0
+data_privacy_national_law_review,data_privacy_information_security_buzz,37.5,average,0,1,0,0,0,0
+data_privacy_techopedia,data_privacy_dark_reading,40.0,average,0,1,0,0,0,0
+data_privacy_euractiv.com,data_privacy_cso_online,40.0,average,0,1,0,0,0,0
+data_privacy_techopedia,data_privacy_computer_weekly,40.0,average,0,1,0,0,0,0
+data_privacy_lexology,data_privacy_cso_online,40.0,average,0,1,0,0,0,0
+data_privacy_dark_reading,data_privacy_computer_weekly,42.5,above average,0,0,1,0,0,0
+data_privacy_dark_reading,data_privacy_cso_online,42.5,above average,0,0,1,0,0,0
+data_privacy_national_law_review,data_privacy_cso_online,43.333333333333336,above average,0,0,1,0,0,0
+data_privacy_euractiv.com,data_privacy_dark_reading,43.333333333333336,above average,0,0,1,0,0,0
+data_privacy_national_law_review,data_privacy_dark_reading,43.333333333333336,above average,0,0,1,0,0,0
+data_privacy_information_security_buzz,data_privacy_cso_online,45.0,above average,0,0,1,0,0,0
+data_privacy_cso_online,data_privacy_computer_weekly,45.0,above average,0,0,1,0,0,0
+data_privacy_lexology,data_privacy_computer_weekly,46.666666666666664,good,0,0,0,1,0,0
+data_privacy_information_security_buzz,data_privacy_dark_reading,50.0,good,0,0,0,1,0,0
+data_privacy_euractiv.com,data_privacy_computer_weekly,50.0,good,0,0,0,1,0,0
+data_privacy_information_security_buzz,data_privacy_euractiv.com,52.0,very good,0,0,0,0,1,0
+data_privacy_information_security_buzz,data_privacy_computer_weekly,55.0,very good,0,0,0,0,1,0
+data_privacy_lexology,data_privacy_information_security_buzz,60.0,excellent,0,0,0,0,0,1
+data_privacy_lexology,data_privacy_euractiv.com,60.0,excellent,0,0,0,0,0,1

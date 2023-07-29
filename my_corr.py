@@ -4,11 +4,6 @@ from utility import find_category
 import matplotlib.pyplot as plt
 from utility import find_maximum_matching, find_matching_category, matching_category_label
 
-df = pd.read_csv('output/resume.csv')
-df.drop(columns=df.columns[0], axis=1, inplace=True)
-
-pdf_name = df.keys()
-
 def relation_between_two_pdf(pdf1_name, pdf1, pdf2_name, pdf2):
     sum_category = None
     num_non_zero = 0
@@ -31,7 +26,12 @@ def relation_between_two_pdf(pdf1_name, pdf1, pdf2_name, pdf2):
     
     return(sum_category / num_non_zero, df1)
 
-num_of_pdf = df.shape[1] - 1
+df = pd.read_csv('output/chosen_words.csv')
+df.drop(columns=df.columns[0], axis=1, inplace=True)
+
+pdf_name = df.keys()
+
+num_of_pdf = df.shape[1]
 
 # print(df)
 
@@ -77,6 +77,8 @@ num_parts = len(matching_category_label)
 step = (max_val - threshold) / num_parts
 matching_category_bin = [threshold + i * step for i in range(1, num_parts + 1)]
 
+print(matching_category_bin)
+
 num_of_matching = int(num_of_pdf * (num_of_pdf - 1) / 2)
 
 matching_category = [[0] * len(matching_category_label) for i in range(num_of_matching)]
@@ -100,7 +102,7 @@ for i in range(num_of_pdf):
             
 matching_category = pd.DataFrame(matching_category)
 category_value = matching_category.sum()
-matching_category.rename(columns={matching_category.columns[0]: 'very poor', matching_category.columns[1]: 'poor', matching_category.columns[2]: 'average', matching_category.columns[3]: 'high', matching_category.columns[4]: 'excellent'}, inplace=True)
+matching_category.rename(columns={matching_category.columns[0]: 'poor', matching_category.columns[1]: 'average', matching_category.columns[2]: 'above average', matching_category.columns[3]: 'good', matching_category.columns[4]: 'very good', matching_category.columns[5]: 'excellent'}, inplace=True)
 matching_category.insert(0, 'Matching_Category', matching_category_value)
 matching_category.insert(0, 'Matching_Value', matching_value)
 matching_category.insert(0, 'pdf2', pdf2)
@@ -108,7 +110,7 @@ matching_category.insert(0, 'pdf1', pdf1)
 
 temp_df =  matching_category.sort_values(by=['Matching_Value'])
 temp_df.to_csv('output/matching_category.csv', index = False)
-print(matching_category)
+# print(matching_category)
 
 plt.bar(matching_category_label, category_value.values, width = 0.4)
 

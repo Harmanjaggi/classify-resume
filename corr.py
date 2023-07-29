@@ -6,8 +6,6 @@ from utility import find_maximum_matching
 df = pd.read_csv('output/resume.csv')
 df.drop(columns=df.columns[0], axis=1, inplace=True)
 
-df.drop(columns=df.columns[0], axis=1, inplace=True)
-
 # Calculate the correlation matrix
 correlation_matrix = df.corr()
 

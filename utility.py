@@ -11,7 +11,7 @@ def find_category(num):
             return(word_matching_labels[idx - 1])
     return(-1)
 
-matching_category_label = ['very poor', 'poor', 'average', 'above average', 'good', 'excellent']
+matching_category_label = ['poor', 'average', 'above average', 'good', 'very good', 'excellent']
 
 def find_matching_category(num, matching_category_bin):
     for idx, b in enumerate(matching_category_bin):

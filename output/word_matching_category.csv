@@ -1,15 +1,3 @@
-,Words,Word_Matching_Category,pdf 0,pdf 1,pdf 2,pdf 3,pdf 4
-0,analysis,10,2,2,2,2,2
-1,architecture,-1,8,4,4,4,4
-2,c,-1,6,4,4,4,8
-3,computer,-1,2,2,2,8,10
-4,data,10,2,2,2,2,2
-5,development,-1,8,6,2,10,4
-6,dod,-1,2,2,10,6,2
-7,java,-1,2,2,12,6,4
-8,learning,-1,2,2,2,12,6
-9,linux,10,2,2,2,2,2
-10,machine,-1,2,2,2,12,6
-11,python,-1,8,12,8,8,6
-12,system,-1,2,2,2,8,10
-13,ware,-1,8,6,2,10,4
+Words,Word_Matching_Category,data_privacy_cso_online,data_privacy_dark_reading,data_privacy_euractiv.com,data_privacy_help_net_security,data_privacy_information_security_buzz,data_privacy_lexology,data_privacy_national_law_review,data_privacy_techopedia,data_privacy_tech_monitor
+data,-1,16,24,40,4,16,208,28,3,4
+ons,-1,32,12,48,14,12,52,12,21,10
